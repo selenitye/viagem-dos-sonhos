@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem dos Sonhos </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>Pacotes</li>
+                    <li>Taxas</li>
+                    <li>Contato</li>
+                </ul>
+            </nav>
+            <h1>Venha realizar a viagem dos seus Sonhos</h1>
+        </header>
+        <section>
+            <h2>Conheça nossos pacotes</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet augue rutrum velit imperdiet bibendum. Donec ullamcorper, magna at fermentum fringilla, ligula mauris ultricies nibh, vitae volutpat sem eros vel massa. Vivamus cursus mattis ex et sagittis. Maecenas eleifend elit ipsum. Morbi elementum est erat. Phasellus pellentesque ex et ultricies consequat. Mauris eget nulla id justo aliquam aliquam dignissim vitae magna. Donec non velit urna. Nunc elementum nunc eu odio luctus, ut laoreet purus posuere. Nunc non rutrum tortor. Morbi magna nulla, tempor quis mi sed, consequat aliquet nibh. Fusce bibendum, tortor ac porttitor pulvinar, massa sem pellentesque dui, et egestas dolor eros et lectus. Nullam faucibus auctor malesuada. Donec sed pretium nibh. 
+                <br> <br>
+                <a href="https://pt.lipsum.com/feed/html">Link</a>
+                <hr>
+            </p>
+            <figure>
+                <img src="assets/img-nossos-pacotes/bonito.jpg" alt="Imagem do centro de Bonito" height="200px">
+                <figcaption>Bonito</figcaption>
+            </figure>
+            <figure>
+                <img src="assets/img-nossos-pacotes/porto-de-galinhas-pernambuco.jpg" alt="Praia de Porto de Galinhas" height="200px">
+                <figcaption>Porto de Galinhas</figcaption>
+            </figure>
+            <figure>
+                <img src="assets/img-nossos-pacotes/triunfo.jpg" alt="Imagem do centro de Triunfo" height="200px">
+                <figcaption>Triunfo</figcaption>
+            </figure>
+        </section>
+        <video width="320" height="240" controls>
+            <source src="/assets/video/recife.mp4" type="video/mp4">
+            <source src="/assets/video/recife.mov" type="video/mov">
+            Seu navegador não suporta o formato do vídeo. <a href="video/recife.mp4">Clique aqui para baixar</a>
+        </video>
+        <br> <br>
+        <section>
+            <h2>Taxas e Serviços</h2>
+            <p> veja nossas taxas de serviços</p>
+            <table border>
+                <caption>Descrição dos serviços e respectivos valores</caption>
+                <thead>
+                    <tr>
+                        <td>
+                            Serviços
+                        </td>
+                        <td>
+                            Valor
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Reserva de Hotel
+                        </td>
+                        <td>
+                            R$150,00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Compra de Passagens
+                        </td>
+                        <td>
+                            R$100,00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Aluguel de carros
+                        </td>
+                        <td>
+                            R$50,00
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Contato</h2>
+            <form method="get" action="">
+               <fieldset>
+                <legend>Dados da viagem</legend>
+                <label>Nome</label><br>
+                <input type="text" name="nome"><br><br>
+                
+                <label>Email</label><br>
+                <input type="email" required name="email"><br><br>
+
+                <label>Data de ida</label><br>
+                <input type="date" name="dataIda"><br><br>
+
+                <label>Data de volta</label><br>
+                <input type="date" name="dataVolta"><br><br>
+
+                <label>Quantidade de pessoas</label><br>
+                <input type="number" name="qtdPessoas"><br><br>
+               </fieldset>
+
+                <fieldset>
+                    <legend>Quais serviços deseja contratar?</legend>
+                    <label>
+                        <br><input type="checkbox" name="passagens" value="Passagens">Compra de passagens
+                    </label>
+                    <label>
+                        <br><input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de hospedagem
+                    </label>
+                    <label>
+                        <br><input type="checkbox" name="veiculos" value="Veículo">Reserva de veículos
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Escolha a forma de pagamento</legend>
+                    <label>
+                        <br><input type="radio" name="formaPagamento" value="Cartão de crédito">Cartão de crédito 
+                    </label>
+                    <label>
+                        <br><input type="radio" name="formaPagamento" value="Boleto">Boleto 
+                    </label>
+                    <label>
+                        <br><input type="radio" name="formaPagamento" value="Pix">Pix 
+                    </label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Escolha o prazo para pagamento</legend>
+                    <select name="prazoPagamento">
+                        <option value="aVista">À vista</option>
+                        <option value="5x">5x sem juros</option>
+                        <option value="10x">10x com juros</option>
+                    </select>
+                        
+                </fieldset>
+
+                <label>Comentário</label><br>
+                <textarea rows="5" name="comentario"></textarea><br><br>
+                
+                <button>Enviar</button>
+            </form>
+        </section>
+
+        <footer>
+        Desenvolvido por Luana Nascimento | Faculdade Descomplica - 2023
+        </footer>
+    </body>
+</html>
