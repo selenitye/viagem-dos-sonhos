@@ -1,0 +1,54 @@
+body{
+    font-weight: 400;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: #818181;
+    margin: 0;
+}
+
+header{
+    background-color: #F4511E;
+}
+
+section, footer{
+    margin: 40px;
+}
+
+h1 {
+    font-size: 63px;
+    color: #FFF;
+    padding: 15px;
+    text-align: center;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+}
+
+
+table{
+    width: 100%;
+}
+
+table td{
+    color: #303030;
+    padding: 5px;
+}
+
+table thead th{
+    background-color: #F4511E;
+    color: #FFF;
+}
+
+table tr:nth-child(even){
+    background-color: #E9E9E9;
+}
+
+table tr:nth-child(odd){
+    background-color: #BDBDBD;
+}
+
